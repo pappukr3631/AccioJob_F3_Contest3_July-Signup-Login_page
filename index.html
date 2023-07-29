@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="signin-card">
+        <form>
+            <p style="color: #757575; align-self: flex-start; padding-bottom: 5%;">Welcome back! 👋</p>
+            <h2>Sign up to your account</h2>
+            <label for="name">Your name</label>
+            <input type="text" name="" id="name">
+
+            <label for="email">Your email</label>
+            <input type="email" name="" id="email">
+
+            <label for="password">Password</label>
+            <input type="password" name="" id="password">
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" name="" id="confirm-password">
+
+            <button id="button" onclick="signup()">Continue</button>
+        </form>
+        <p id="errorMsg">Error: All fields are mandatory!</p>
+    </div>
+    <p>Don’t have an account? <a href="">Sign up</a></p>
+
+    <div class="background"></div>
+    <div class="background2"></div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
